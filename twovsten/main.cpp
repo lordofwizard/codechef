@@ -7,17 +7,12 @@ int main(){
 	while (t--){
 		int num,step = 0;
 		cin >> num;
-		if ((num % 5) != 0) {
+		if(num % 10 == 0)
+			cout << 0 << endl;
+		else if(num % 5 == 0)
+			cout << 1 << endl;
+		else
 			cout << -1 << endl;
-			break;
-		}
-
-		else if((num % 10) != 0) {
-				num = num*2;
-				step++;
-			
-		}
-		cout << step << endl;
-	}
+}
 	return 0;
 }
