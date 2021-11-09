@@ -1,18 +1,18 @@
 #include <stdio.h>
 
-int gcd (int a,int b){
+long long gcd (long long a,long long b){
 	if (b==0) return a;
 	return gcd(b,a%b);
 }
 
-int lcm(int a , int b){
+long long lcm(long long a , long long b){
 	return (a/gcd(a,b)) *b;
 }
-int main(){
-	int t;
+long long main(){
+	long long t;
 	scanf("%d",&t);
 	while(t--){
-		int a,b;
+		long long a,b;
 		scanf("%d %d",&a,&b);
 		printf("%d %d\n",gcd(a,b),lcm(a,b));
 	}
