@@ -13,7 +13,7 @@ int main(){
 		if(arr[i]%2==0) even++;
 	}
 	if(even > odd) {
-		cout << "READY FOR BATTLE"<<endl;
+   		   cout << "READY FOR BATTLE"<<endl;
 	}
 	else{
 
