@@ -1,6 +1,6 @@
 #include <iostream>
+#include "game.h"
 using namespace std;
-
 int main(){
 	int t;
 	cin >> t;
@@ -13,7 +13,7 @@ int main(){
 		for(int i =0; i<n;i++){
 			cin >> p_arr[i];
 		}
-		for ( int z=0; z<n;z++){
+		for (int z=0; z<n;z++){
 			if(mon>=p_arr[z]){
 				   mon-=p_arr[z];
 				   cout << 1 ;
