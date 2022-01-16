@@ -17,6 +17,5 @@ int main(){
 		b -=2;
 		b = floor(b/2);
 		cout << b * (b+1)/2 << endl;
-		
 	}
 }
