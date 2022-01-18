@@ -17,7 +17,7 @@ int main(){
 		int n,h,big=0;
 		cin >> n >> h;
 		int hi[n];
-		for(int i = 0; i < n; i++){ cin >> hi[n]; if(hi[n] > h) big++;}
+		for(int i = 0; i < n; i++){ cin >> hi[i]; if(hi[i] > h) big++;}
 		cout << big << endl;
 	}
 }
